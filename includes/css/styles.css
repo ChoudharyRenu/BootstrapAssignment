@@ -31,12 +31,32 @@ Notes:	 Hand coded for Udemy.com
    .navbar-brand {
       padding: 13px 15px;
    }
+   /*.navbar-brand img {
+      width: 45px;
+      height: 45px;
+      padding-top: 0px;
+   }*/
    
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+#myCarousel .item {
+   height: 500px;
+   width: 100%;
+}
 
-
+/*#myCarousel {
+   background-repeat: no-repeat;
+}*/
+#slide1{
+   background: url('../../images/slide1.png')
+}
+#slide2{
+   background: url('../../images/slide2.png')
+}
+#slide3 {
+   background: url('../../images/slide3.png')
+}
 
 /* --------------------------------------
    Global Styles

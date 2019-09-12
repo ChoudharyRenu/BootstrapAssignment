@@ -5,7 +5,7 @@
 <head>
 
 	<!-- Website Title & Description for Search Engine purposes -->
-	<title></title>
+	<title>PhotographySite</title>
 	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,20 +30,21 @@
 	<!-- Include Modernizr in the head, before any other Javascript -->
 	<script src="includes/js/modernizr-2.6.2.min.js"></script>
 
+
 </head>
 
 <body>
 
 	<div class="container" id="main">
-		<div class="navbar navbar-fixed-top">
+		<div class="navbar">
 			<div class="container">
 				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse"
 					type="button"> <span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">
-					<img src="images/logo.png" alt="Your Logo"></a>
+				<a class="navbar-brand" href="#">
+					<img src="images/logo.png" alt="Your Logo" width="55px"></a>
 				<div class="nav-collapse collapse navbar-responsive-collapse">
 					<ul class="nav navbar-nav">
 						<li class="active">
@@ -101,6 +102,41 @@
 								</li>
 
 							</ul>
+
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal"
+								data-target="#exampleModal">
+								Book Your Shoot
+							</button>
+
+
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+								aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Fill in the details</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<form action="/action_page.php" method="get">
+												First name: <input type="text" name="fname"><br>
+												Last name: <input type="text" name="lname"><br>
+												<input type="submit" value="Submit">
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary"
+												data-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary">Save changes</button>
+										</div>
+									</div>
+								</div>
+							</div>
 						</li>
 
 					</ul>
@@ -115,11 +151,8 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active" id="slide1">
-					<div class="carousel-caption">
-						<h4>Bootstrap3</h4>
-						<p>first assignment on bootstrap</p>
-					</div>
-
+					<h4>Slide1</h4>
+					<p>capture the moments</p>
 				</div>
 				<div class="item" id="slide2">
 					<div class="carousel-caption">
@@ -140,6 +173,58 @@
 			<!--carousel controls-->
 			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
 			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div>
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4" style="font-family: Georgia, 'Times New Roman', Times, serif">Photography</h1>
+				<p class="lead">“The best thing about a picture is that it never changes, even when the people in it
+					do.”
+					– Andy Warhol
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<h3>Anne gedde</h3>
+				<p>I think that emotional content is an image’s most important element, regardless of the photographic
+					technique. Much of the work I see these days lacks the emotional impact to draw a reaction from
+					viewers, or remain in their hearts.”</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>Elliott Erwoitt</h3>
+				<p>“It’s about reacting to what you see, hopefully without preconception. You can find pictures
+					anywhere. It’s simply a matter of noticing things and organising them. You just have to care about
+					what’s around you and have a concern with humanity and the human comedy.”</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>Rankinn</h3>
+				<p>“There’s a time when people say your work is revolutionary, but you have to keep being revolutionary.
+					I can’t keep shooting pop stars all my life. You have to keep changing, keep pushing yourself,
+					looking for the new, the unusual.”</p>
+			</div>
+		</div>
+		<h2>Our Photographers:-</h2>
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="images/photographer1.jpeg" alt="photographer1" class="img-circle"
+					style="border-radius: 400px;">
+				<p>
+					"If your pictures aren't good enough, you aren't close enough."
+					<br>
+					"I hope to stay unemployed as a war photographer till the end of my life."
+					<br>
+					"I think all art is about control - the encounter between control and the uncontrollable."
+				</p>
+
+			</div>
+			<div class="col-sm-6">
+				<img src="images/photographer2.jpeg" alt="photographer1" class="img-circle" style="border-radius: 400px;">
+				<p>
+					"All photographs are accurate. None of them is the truth."
+					<br>
+					"My portraits are more about me than they are about the people I photograph."
+				</p>
+			</div>
 		</div>
 		<div class="row" id="bigCallout"></div>
 		<div class="row" id="featuresHeading"></div>
