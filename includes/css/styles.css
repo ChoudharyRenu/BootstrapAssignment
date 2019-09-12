@@ -15,70 +15,78 @@ Notes:	 Hand coded for Udemy.com
    -------------------------------------- */
 
 
-
 /* --------------------------------------
    Typography
    -------------------------------------- */
 
 
-
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   #searchInput {
-      width: 200px;
-   }
-   .navbar-brand {
-      padding: 13px 15px;
-   }
-   /*.navbar-brand img {
+
+#searchInput {
+    width: 200px;
+}
+
+.navbar-brand {
+    padding: 13px 15px;
+}
+
+
+/*.navbar-brand img {
       width: 45px;
       height: 45px;
       padding-top: 0px;
    }*/
-   
+
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+
 #myCarousel .item {
-   height: 500px;
-   width: 100%;
+    height: 500px;
+    width: 100%;
 }
+
 
 /*#myCarousel {
    background-repeat: no-repeat;
 }*/
-#slide1{
-   background: url('../../images/slide1.png')
+
+#slide1 {
+    background: url('../../images/slide1.png')
 }
-#slide2{
-   background: url('../../images/slide2.png')
+
+#slide2 {
+    background: url('../../images/slide2.png')
 }
+
 #slide3 {
-   background: url('../../images/slide3.png')
+    background: url('../../images/slide3.png')
 }
+
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
 
 
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
+
 /* Portrait & landscape phone */
-@media (max-width: 480px) {
-	
-}
+
+@media (max-width: 480px) {}
+
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-	
-}
+
+@media (max-width: 768px) {}
+
 
 /* Large desktop */
-@media (min-width: 1200px) {
-	
-}
+
+@media (min-width: 1200px) {}
